@@ -77,5 +77,13 @@ angular.module('starter', ['ionic'])
       }
     }
   })
+.state('tabs.chats',{
+    url:'/chats',
+    views:{
+      'home-tab':{
+        templateUrl:'templates/chats.html'
+      }
+    }
+  })
   $urlRouterProvider.otherwise('/tab/home')
 }])

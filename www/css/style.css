@@ -1,1 +1,17 @@
-/* Empty. Add your own CSS if you like */
+/* 联系人界面 */
+/*我的好友list的padding*/
+.padding-a{
+	margin-top: 30px;
+}
+/*列表右侧消息的定位*/
+.textRight{
+	position: absolute;
+	right: 10px;
+	color: rgb(195, 195, 195);
+}
+.border-none{
+	border-top: none;
+}
+.list{
+	margin-bottom: 0px;
+}
